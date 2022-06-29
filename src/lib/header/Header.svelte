@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import logo from './svelte-logo.svg';
+	import logo from './github.svg';
 </script>
 
 <header>
@@ -15,12 +15,13 @@
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
 		<ul>
-			<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-			<li class:active={$page.url.pathname === '/about'}>
-				<a sveltekit:prefetch href="/about">About</a>
+			<li class:active={$page.url.pathname === '/#home'}><a sveltekit:prefetch href="/#home">Home</a></li>			
+			
+			<li class:active={$page.url.pathname === '/#projects'}>
+				<a sveltekit:prefetch href="/#projects">Projects</a>
 			</li>
-			<li class:active={$page.url.pathname === '/todos'}>
-				<a sveltekit:prefetch href="/todos">Todos</a>
+			<li class:active={$page.url.pathname === '/#contact'}>
+				<a sveltekit:prefetch href="/#contact">Contact</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -37,6 +38,7 @@
 	header {
 		display: flex;
 		justify-content: space-between;
+		
 	}
 
 	.corner {
@@ -59,9 +61,10 @@
 	}
 
 	nav {
-		display: flex;
+		display: flex;		
 		justify-content: center;
 		--background: rgba(255, 255, 255, 0.7);
+		border-bottom: 1px solid var(--accent-color);	
 	}
 
 	svg {
@@ -90,19 +93,7 @@
 	li {
 		position: relative;
 		height: 100%;
-	}
-
-	li.active::before {
-		--size: 6px;
-		content: '';
-		width: 0;
-		height: 0;
-		position: absolute;
-		top: 0;
-		left: calc(50% - var(--size));
-		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--accent-color);
-	}
+	}	
 
 	nav a {
 		display: flex;
@@ -111,7 +102,7 @@
 		padding: 0 1em;
 		color: var(--heading-color);
 		font-weight: 700;
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		text-decoration: none;
