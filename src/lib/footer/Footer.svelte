@@ -1,37 +1,30 @@
 <script lang="ts">
-
 </script>
 
 <footer>
-  <nav>
-    <ul>
-      <li>
-        <a href="https://kit.svelte.dev">
-          Email
-        </a>
-      </li>
-      <li>
-        <a href="https://kit.svelte.dev">
-          Github
-        </a>
-      </li>
-      <li>
-        <a href="https://kit.svelte.dev">
-          LinkedIn
-        </a>
-      </li>
-    </ul> 
-	</nav>	
+	<nav>
+		<ul>
+			<li>
+				<a href="https://kit.svelte.dev"> Email </a>
+			</li>
+			<li>
+				<a href="https://kit.svelte.dev"> Github </a>
+			</li>
+			<li>
+				<a href="https://kit.svelte.dev"> LinkedIn </a>
+			</li>
+		</ul>
+	</nav>
 </footer>
 
-<style> 
-  nav {
+<style>
+	nav {
 		display: flex;
 		justify-content: space-evenly;
 		--background: rgba(255, 255, 255, 0.7);
 	}
 
-  nav a {
+	nav a {
 		display: flex;
 		height: 100%;
 		align-items: center;
@@ -45,7 +38,7 @@
 		transition: color 0.2s linear;
 	}
 
-  ul {
+	ul {
 		position: relative;
 		padding: 0;
 		margin: 0;
@@ -61,10 +54,9 @@
 	li {
 		position: relative;
 		height: 100%;
-	}	
-
-  a:hover {
-		color: var(--accent-color);
 	}
 
+	a:hover {
+		color: var(--accent-color);
+	}
 </style>

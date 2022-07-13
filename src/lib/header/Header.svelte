@@ -9,8 +9,10 @@
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
 		<ul>
-			<li class:active={$page.url.pathname === '/#home'}><a sveltekit:prefetch href="/#home">Home</a></li>			
-			
+			<li class:active={$page.url.pathname === '/#home'}>
+				<a sveltekit:prefetch href="/#home">Home</a>
+			</li>
+
 			<li class:active={$page.url.pathname === '/#projects'}>
 				<a sveltekit:prefetch href="/#projects">Projects</a>
 			</li>
@@ -32,14 +34,13 @@
 	header {
 		display: flex;
 		justify-content: center;
-		
 	}
 
 	nav {
-		display: flex;		
+		display: flex;
 		justify-content: center;
 		--background: rgba(255, 255, 255, 0.7);
-		border-bottom: 1px solid var(--accent-color);	
+		border-bottom: 1px solid var(--accent-color);
 	}
 
 	svg {
@@ -68,7 +69,7 @@
 	li {
 		position: relative;
 		height: 100%;
-	}	
+	}
 
 	nav a {
 		display: flex;

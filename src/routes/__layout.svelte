@@ -1,15 +1,14 @@
 <script lang="ts">
-import Footer from '$lib/footer/Footer.svelte';
-import Header from '$lib/header/Header.svelte';
-import '../app.css';
+	import Footer from '$lib/footer/Footer.svelte';
+	import Header from '$lib/header/Header.svelte';
+	import '../app.css';
 </script>
-
 
 <Header />
 <main>
-	<slot />		
+	<slot />
 </main>
-<Footer/>
+<Footer />
 
 <style>
 	main {
@@ -21,5 +20,5 @@ import '../app.css';
 		max-width: 80rem;
 		margin: 0 auto;
 		box-sizing: border-box;
-	}	
+	}
 </style>
