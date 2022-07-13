@@ -3,6 +3,7 @@
 </script>
 
 <script lang="ts">
+import Cat from "$lib/cat/Cat.svelte";
 import Contact from "./contact.svelte";
 import Projects from "./projects.svelte";
 
@@ -12,18 +13,18 @@ import Projects from "./projects.svelte";
 	<title>Home</title>
 	<meta name="description" content="Portfolio" />
 </svelte:head>
-
-<section>
-	<div class="content">
+<Cat/>
+<section>	
+	<div class="content">		
 	<h1 id="home">
 		Hello! I'm <span class="pink">Karolin</span>.
 	</h1>
+	<h2 class="subtitle">Based in Stockholm, Sweden</h2>
 	<hr class="solid">	
-		<p>A Frontend Developer currently learning to code at Hyper Island, but I’ve had coding for about 1+ year in as a hobby before I started studying. My current goal is learning how to learn - and applying it into my projects. </p>
-		<p>When I am not coding (which is not often) I love to cook and eat, travel, train and hang our with my cat. </p>
-		<p>Let’s stay in touch! You can find my projects on GitHub or here, get in contact on LinkedIn and occationally read my tweets on Twitter! </p>
-	</div>
-	
+		<p>With a passion for code, problem solving and pixel perfect user interfaces. I am currently creating technical solutions at Svenska Spel, where I am part of developing our new Design System. </p>			
+		<p>Apart from this, I like to create websites for external clients helping them to get suitable user interfaces and bring their ideas to life.</p>
+		<p>When I am not coding I love to cook and eat, travel, train and hang our with my cat. </p>		
+	</div>	
 </section>
 <Projects/>
 <Contact/>
@@ -34,22 +35,24 @@ import Projects from "./projects.svelte";
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		flex: 1;
-		
+		flex: 1;		
 	}
 
 	h1 {
 		width: 100%;
 	}
-
+	.subtitle{
+		text-align: center;
+		font-size: 1.25rem;
+	}
 	.pink {
 		color: var(--accent-color);
 	}	
 
-	.content {
-		width: 100%;
+	.content {		
 		max-width: var(--column-width);
 		margin: var(--column-margin-top) auto 0 auto;
+		padding: 0 1rem;
 	}
 
 </style>
