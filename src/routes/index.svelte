@@ -5,7 +5,6 @@
 <script lang="ts">
 	import Cat from '$lib/cat/Cat.svelte';
 	import Contact from './contact.svelte';
-	import Projects from './projects.svelte';
 </script>
 
 <svelte:head>
@@ -22,8 +21,7 @@
 		<hr class="solid" />
 		<p>
 			With a passion for code, problem solving and pixel perfect user interfaces. I am currently
-			creating technical solutions at Svenska Spel, where I am part of developing our new Design
-			System.
+			creating technical solutions at Svenska Spel, where I am part of developing our new <a href="https://www.svenskaspel.design/">Design System.</a>
 		</p>
 		<p>
 			Apart from this, I like to create websites for external clients helping them to get suitable
