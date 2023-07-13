@@ -13,8 +13,7 @@
 	<p>Let’s stay in touch!</p>
 	<p>
 		You can find my more of my projects on <a href="https://github.com/karolinfrennert">GitHub</a>
-		or get in contact on <a href="https://linkedin.com/in/karolinfrennert">LinkedIn</a> and occationally
-		read my tweets on Twitter!
+		or get in contact on <a href="https://linkedin.com/in/karolinfrennert">LinkedIn</a>!
 	</p>
 </div>
 
