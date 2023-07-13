@@ -32,7 +32,6 @@
 		<p>When I am not coding I love to cook and eat, travel, train and hang our with my cat.</p>
 	</div>
 </section>
-<Projects />
 <Contact />
 
 <style>

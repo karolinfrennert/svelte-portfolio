@@ -1,6 +1,6 @@
 <script lang="ts">
 	export let title: string = 'Unknown title';
-	export let src: string = '';
+	export let src = import.meta.glob('/src/lib/images/space.png');
 	export let alt: string = 'An image';
 	export let github: string = 'https://github.com/karolinfrennert';
 	export let info: string = 'Some more info about the project';
@@ -9,7 +9,7 @@
 
 <article class="card">
 	<div class="card-side front">
-		<img src={src ? src : ''} {alt} />
+		<img {src} {alt} />
 		<div class="text-content">
 			<h2 class="title">
 				{title}
