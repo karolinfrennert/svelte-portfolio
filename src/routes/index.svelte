@@ -24,8 +24,9 @@
 			creating technical solutions at Svenska Spel, where I am part of developing our new <a href="https://www.svenskaspel.design/">Design System.</a>
 		</p>
 		<p>
-			Apart from this, I like to create websites for external clients helping them to get suitable
-			user interfaces and bring their ideas to life.
+			Apart from this, I like to create websites for people helping them to get suitable
+			user interfaces and bring their ideas to life. Don't hesitate to reach out if you want your ideas
+			brought to life. 
 		</p>
 		<p>When I am not coding I love to cook and eat, travel, train and hang our with my cat.</p>
 	</div>
