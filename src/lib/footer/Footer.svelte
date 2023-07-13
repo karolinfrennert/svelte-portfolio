@@ -5,13 +5,10 @@
 	<nav>
 		<ul>
 			<li>
-				<a href="https://kit.svelte.dev"> Email </a>
+				<a href="https://github.com/karolinfrennert"> Github </a>
 			</li>
 			<li>
-				<a href="https://kit.svelte.dev"> Github </a>
-			</li>
-			<li>
-				<a href="https://kit.svelte.dev"> LinkedIn </a>
+				<a href="https://linkedin.com/in/karolinfrennert"> LinkedIn </a>
 			</li>
 		</ul>
 	</nav>
