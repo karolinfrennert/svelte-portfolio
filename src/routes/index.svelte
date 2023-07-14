@@ -20,15 +20,14 @@
 		<h2 class="subtitle">Based in Stockholm, Sweden</h2>
 		<hr class="solid" />
 		<p>
-			With a passion for code, problem solving and pixel perfect user interfaces. I am currently
-			creating technical solutions at Svenska Spel, where I am part of developing our new <a href="https://www.svenskaspel.design/">Design System.</a>
+			I have a passion for coding, problem solving, and creating pixel-perfect user interfaces. My current focus revolves around developing technical solutions as part of 
+			Svenska Spel's talented team, specifically contributing to the creation of our new <a href="https://www.svenskaspel.design/">Design System</a>.
 		</p>
 		<p>
-			Apart from this, I like to create websites for people helping them to get suitable
-			user interfaces and bring their ideas to life. Don't hesitate to reach out if you want your ideas
-			brought to life. 
+			Aside from my professional work, I take great pleasure in building websites that bring people's ideas to life. Whether you're in need of a captivating user interface or want to transform your concept into a fully functional website, I'm here to help. 
+			Feel free to reach out, and let's discuss how we can make your ideas a reality. 
 		</p>
-		<p>When I am not coding I love to cook and eat, travel, train and hang our with my cat.</p>
+		<p>When I am not coding I love to cook and eat, travel, train and hang out with my cat Kurt.</p>
 	</div>
 </section>
 <Contact />
